@@ -5,15 +5,15 @@ const links = [
   { href: '/drinks', label: 'drinks' },
   { href: '/prisma', label: 'prisma' },
   { href: '/query', label: 'query' },
-  { href: '/task', label: 'task' },
+  { href: '/Task', label: 'Task' },
   { href: '/more', label: 'more' },
 ]
 
 const Navbar = () => {
   return (
-    <nav className='bg-base-300 py-4'>
-      <div className='navbar px-8 max-w-6xl mx-auto flex-row sm:flex-row'>
-        <Link href='/' className='btn btn-secondary'>
+    <nav className='bg-base-300 py-4 '>
+      <div className='navbar px-8  max-w-6xl mx-auto flex flex-col'>
+        <Link href='/' className='btn btn-primary'>
           Next.js
         </Link>
         <ul className='menu menu-horizontal md:ml-8'>

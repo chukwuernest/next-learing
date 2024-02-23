@@ -13,8 +13,8 @@ export default function RootLayout({ children }) {
   return (
     <html lang='en'>
       <body className={inter.className}>
-        <Navbar className='flex-col sm:flex-row' />
-        <main className='px-8 py-20 max-w-6xl mx-auto '>{children}</main>
+        <Navbar className='bg-primay ' />
+        <main className='px-8 py-20 max-w-6xl mx-auto '> {children}</main>
       </body>
     </html>
   )
