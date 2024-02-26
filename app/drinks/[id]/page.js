@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import DrinksList from '../../../component/DrinksList'
 
 // const url = 'http://www.thecocktaildb.com/api/json/v1/1/search.php?i=vodka'
 const url = 'https://www.thecocktaildb.com/api/json/v1/1/lookup.php?i='
